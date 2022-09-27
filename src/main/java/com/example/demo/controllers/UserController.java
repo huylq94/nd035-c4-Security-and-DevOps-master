@@ -5,13 +5,16 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/user")
+@Slf4j
 public class UserController {
 
 	@Autowired
@@ -46,6 +49,7 @@ public class UserController {
 		user.setCart(cart);
 		userRepository.save(user);
 		cartRepository.save(cart);
+		log.debug(HttpStatus.CREATED + " - Create User Successfully");
 		return ResponseEntity.ok(user);
 	}
 	

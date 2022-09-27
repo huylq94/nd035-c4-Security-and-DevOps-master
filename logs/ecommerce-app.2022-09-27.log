@@ -1,0 +1,21 @@
+2022-09-27 18:26:18,098 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on DESKTOP-C2GJKOT with PID 13436 (E:\ProjectJava\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by HuyLQ in E:\ProjectJava\nd035-c4-Security-and-DevOps-master\starter_code)
+2022-09-27 18:26:18,111 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-27 18:26:18,112 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-27 18:26:22,565 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-09-27 18:26:22,566 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-09-27 18:26:22,884 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-09-27 18:26:23,241 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-09-27 18:26:23,456 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-09-27 18:26:23,529 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-27 18:26:23,624 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-09-27 18:26:23,627 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2022-09-27 18:26:23,937 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-09-27 18:26:24,162 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-27 18:26:25,968 DEBUG com.example.demo.security.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2022-09-27 18:26:26,990 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 10.016 seconds (JVM running for 16.336)
+2022-09-27 18:27:57,423 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 18:27:57,794 DEBUG com.example.demo.controllers.UserController [http-nio-8080-exec-1] 201 CREATED - Create User Successfully
+2022-09-27 18:28:30,200 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown initiated...
+2022-09-27 18:28:30,205 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown completed.
